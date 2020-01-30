@@ -1,0 +1,12 @@
+{
+
+  email: contact.email,
+  
+  
+  formatted: {
+    updated_at: contact.friendly_updated_at,
+    full_name: contact.full_name,
+    
+  },
+  belongs_to: contact.user.name
+}

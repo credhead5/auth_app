@@ -1,0 +1,3 @@
+@auths.map do |auth|
+  render partial: "auth.json.jb", locals: {auth: auth}
+end
